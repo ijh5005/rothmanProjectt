@@ -1,0 +1,26 @@
+{
+  "name": "sampleofworkmern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "nodemon": "node app",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run nodemon\" \"npm run client\""
+  },
+  "author": "Isaiah Harrison",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.7",
+    "nodemon": "^1.18.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.5.0"
+  }
+}

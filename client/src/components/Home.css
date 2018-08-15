@@ -1,0 +1,24 @@
+:root {
+  --red: #721922;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.authBtn {
+  color: #fff;
+  background-color: var(--red);
+  font-size: 2em;
+  width: 6em;
+  height: 2em;
+  margin: 0.2em;
+  border-radius: 0.2em;
+  opacity: 0.6;
+}
+
+.authBtn:hover {
+  opacity: 1;
+  transition: 0.5s all;
+}
